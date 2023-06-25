@@ -1,0 +1,18 @@
+{
+  "name": "npm-mata",
+  "version": "0.0.6",
+  "description": "My Awesome Tag Manager v2",
+  "keywords": [
+    "logging",
+    "Web"
+  ],
+  "homepage": "https://mata2.co.kr",
+  "bugs": {
+    "email": "xogmldntmd@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Malachai Lee <xogmldntmd@gmail.com>",
+  "engines": {
+    "node": ">=0.10.3"
+  }
+}

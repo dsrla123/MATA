@@ -1,0 +1,23 @@
+server {
+
+  listen 80;
+#  listen 443 ssl;
+  server_name www.mata.co.kr;
+
+#  ssl_certificate /home/nginx/ssl/mata-ssl.crt;
+#  ssl_certificate_key /home/nginx/ssl/mata-ssl.key;
+
+  location / {
+    root   /home/build;
+    index  index.html index.htm;
+    try_files $uri $uri/ /index.html;
+  }
+}
+
+#server {
+#
+#    listen 80;
+#    server_name www.mata.co.kr;
+#    return 301 https://$host$request_uri;
+#
+#}

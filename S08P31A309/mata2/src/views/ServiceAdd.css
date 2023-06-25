@@ -1,0 +1,60 @@
+#ServiceAdd-background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  
+
+  height: 100vh;
+  
+  background: url('../assets/loginBackground.svg');
+  background-size: cover;
+  filter: hue-rotate(10deg);
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+#ServiceAddForm{
+  
+  width: 500px;
+  height: 500px;
+  left: 710px;
+  top: 92.5px;
+  
+  background: #FFFFFF;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  gap: 3rem;
+}
+
+
+
+.inputField{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: rgba(0, 0, 0, 0.4);
+  
+}
+
+#ServiceAddButton{
+  width: 400px;
+  height: 80px;
+  color: white;
+  font-size: 20px;
+  background: #6A9D67;
+  border-radius: 30px;
+}
+

@@ -1,0 +1,25 @@
+#form-background{
+  background: #F8F8F8;
+}
+
+p{
+  font-size: 2em;
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+input[type='text']{
+　border-left-width:0;
+　border-right-width:0;
+　border-top-width:0;
+　border-bottom-width:1;
+
+  background-color:  #e2e2e2;
+}
+
+.inputSet{
+  background: #FFFFFF;
+  border: 1px solid #ECECEC;
+  border-radius: 30px;
+  box-sizing: border-box;
+}

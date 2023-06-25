@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-app
+  namespace: deployments
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react
+  template:
+    metadata:
+      labels:
+        app: react
+    spec:
+      containers:
+        - name: react-app
+          image: gegurakzi/react-app:latest
+          ports:
+            - name: httpport
+              containerPort: 80
+            - name: httpsport
+              containerPort: 443

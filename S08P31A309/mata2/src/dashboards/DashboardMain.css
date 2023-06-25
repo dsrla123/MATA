@@ -1,0 +1,43 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    /* overflow: auto; */
+}
+
+.main {
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.charts-container {
+    display: flex;
+    flex-direction: column;
+    resize: both;
+    overflow: auto;
+}
+
+.chart-row {
+    display: flex;
+    height: 250px;
+
+}
+
+.chart-row > * {
+    flex-basis: 50%;
+    /* flex-grow: 1; */
+
+}
+
+.chart-col {
+    display: flex;
+    overflow: auto;
+    resize: both;
+}
